@@ -2,16 +2,16 @@ import { Injectable, RequestMethod } from '@nestjs/common';
 
 interface Iroute {
   route: string;
-  method: RequestMethod;
+  method: string;
   description: string;
 }
 
 const routes: Iroute[] = [
-  { route: '/products', method: RequestMethod.GET, description: 'Lista produktów' },
-  { route: '/products/:id', method: RequestMethod.GET, description: 'Szczegóły produktu' },
-  { route: '/products/:id', method: RequestMethod.PUT, description: 'Update produktu' },
-  { route: '/products', method: RequestMethod.POST, description: 'Utworzenie produktu' },
-  { route: '/products/:id', method: RequestMethod.DELETE, description: 'Usunięcie produktu' },
+  { route: '/products', method: 'GET', description: 'Lista produktów' },
+  { route: '/products/:id', method: 'GET', description: 'Szczegóły produktu' },
+  { route: '/products/:id', method: 'PUT', description: 'Update produktu' },
+  { route: '/products', method: 'POST', description: 'Utworzenie produktu' },
+  { route: '/products/:id', method: 'DELETE', description: 'Usunięcie produktu' },
 ]
 
 @Injectable()
