@@ -1,3 +1,26 @@
+#### Aplikacja została napisana w NestJS oraz MongoDB <br>
+# Instrukcja jak uruchomić lokalnie <br>
+> Lub można wejść na [junior-nodejs-task.vercel.app](https://junior-nodejs-task.vercel.app/) gdzie aplikacja została udostępniona <br>
+
+sklonować poprzez "git clone https://github.com/stanislawsztrajt/junior-nodejs-task.git" lub pobrać jako .zip <br>
+następnie w CMD w root'cie apliakacji użyć "npm install", a następnie "npm run start:dev" <br>
+po uruchomieniu server'a będzie on dostępny pod adresem "http://localhost:3000" <br>
+
+# Routes <br>
+route: /products  &ensp;&ensp;&ensp;&ensp;&ensp;  typ zapytania: "GET"  &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;opis: Lista produktów <br>
+route: /products/:id  &ensp;&ensp;  typ zapytania: "GET"  &ensp;&ensp; &ensp; &ensp;  opis: Szczegóły produktu <br>
+route: /products/:id  &ensp;&ensp;  typ zapytania: "PUT"   &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;opis: Update produktu <br>
+route: /products   &ensp;&ensp;&ensp;&ensp;&ensp;   typ zapytania: "POST" &ensp;&ensp;&ensp;&ensp;opis: Utworzenie produktu <br>
+route: /products/:id  &ensp;&ensp;  typ zapytania: "DELETE"  &ensp;&ensp; opis: Usunięcie produktu <br>
+
+
+
+
+
+ <br> <br> <br> <br> <br> <br>
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
