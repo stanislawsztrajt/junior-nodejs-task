@@ -2,7 +2,7 @@
 # Instrukcja jak uruchomić lokalnie <br>
 > Lub można wejść na [junior-nodejs-task.vercel.app](https://junior-nodejs-task.vercel.app/) gdzie aplikacja została udostępniona <br>
 
-sklonować poprzez "git clone https://github.com/stanislawsztrajt/junior-nodejs-task.git" lub pobrać jako .zip <br>
+Sklonować poprzez "git clone https://github.com/stanislawsztrajt/junior-nodejs-task.git" lub pobrać jako .zip <br>
 następnie w CMD w root'cie apliakacji użyć "npm install", a następnie "npm run start:dev" <br>
 po uruchomieniu server'a będzie on dostępny pod adresem "http://localhost:3000" <br>
 
