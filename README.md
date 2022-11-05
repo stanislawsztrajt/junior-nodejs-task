@@ -9,8 +9,8 @@ po uruchomieniu server'a będzie on dostępny pod adresem "http://localhost:3000
 # Routes <br>
 route: /products  &ensp;&ensp;&ensp;&ensp;&ensp;  typ zapytania: "GET"  &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;opis: Lista produktów <br>
 route: /products/:id  &ensp;&ensp;  typ zapytania: "GET"  &ensp;&ensp; &ensp; &ensp;  opis: Szczegóły produktu <br>
-route: /products/:id  &ensp;&ensp;  typ zapytania: "PUT"   &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;opis: Update produktu <br>
-route: /products   &ensp;&ensp;&ensp;&ensp;&ensp;   typ zapytania: "POST" &ensp;&ensp;&ensp;&ensp;opis: Utworzenie produktu <br>
+route: /products/:id  &ensp;&ensp;  typ zapytania: "PUT"   &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;opis: Update produktu <br> Pola: name, price, _id(wymagane)
+route: /products   &ensp;&ensp;&ensp;&ensp;&ensp;   typ zapytania: "POST" &ensp;&ensp;&ensp;&ensp;opis: Utworzenie produktu <br> Pola: name(wymagane), price(wymagane)
 route: /products/:id  &ensp;&ensp;  typ zapytania: "DELETE"  &ensp;&ensp; opis: Usunięcie produktu <br>
 
 
